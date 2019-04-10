@@ -309,22 +309,34 @@ li {
     }
 }
 @media (max-width: 515px) {
+    .header {
+        margin-bottom: 0px;
+        width: 100%;
+    }
 	.span {
-		display: flex;
+        display: flex;
+        height: 100%;
 		flex-direction: column;
-		margin: 0px 10px 0px 10px;
-		align-content: center;
 	}
 	.nav {
 		border-bottom: solid black 1px;
-		width: 600px;
+		width: 150%;
 		text-align: center;
 		margin-left: 0px;
 		padding-bottom: 10px;
-	}
-	.tablet {
-		border-bottom: solid black 1px;
+    }
+    .serv {
+        border-top: solid black 1px;
+        border-bottom: solid black 1px;
+		width: 150%;
+		text-align: center;
+		margin-left: 0px;
 		padding-bottom: 10px;
+    }
+	.tablet {
+        padding-bottom: 10px;
+        width: 100%;
+        margin: 0 auto;
 	}
 	.container {
 		max-width: 100%;
@@ -356,7 +368,8 @@ li {
 		margin: 20px 20px 40px 0px;
 	}
 	.undnav {
-		display: none;
+        padding: 
+        margin: 0 0 0 0;
 	}
 }
 .container {
