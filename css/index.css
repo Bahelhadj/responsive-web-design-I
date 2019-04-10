@@ -239,7 +239,15 @@ li {
 @media (max-width: 800px) {
 	.mainpic {
 		display: none;
-	}
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+        max-width: 90%;
+        padding-left: 5%;
+        padding-right: 5%; 
+        margin: 0 auto;
+    }
 	.desktop {
 		display: none;
 	}
@@ -247,8 +255,9 @@ li {
 		max-width: 100%;
 	}
 	.undnav {
-		display: flex;
-		width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 60px;
 	}
 	.topsect {
 		border-top: 2px solid black;
@@ -271,10 +280,14 @@ li {
 		padding: 2%;
 	}
 	.inno {
-		margin-left: 0px;
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        flex-flow: row wrap;
+        padding: 0;
 	}
 	.button {
-		margin-left: 70px;
+		margin: 0 auto;
 	}
 	.tablet {
 		width: 100%;
@@ -282,12 +295,18 @@ li {
 		justify-content: center;
 	}
 	.span {
-		display: flex;
+        display: flex;
+        margin-right: 0;
+        justify-content: space-between;
+        max-width: 800px;
 	}
 	.section2 {
 		width: 100%;
 		margin: 20px 20px 40px 0px;
-	}
+    }
+    .section {
+        padding-right: 10px;
+    }
 }
 @media (max-width: 515px) {
 	.span {
